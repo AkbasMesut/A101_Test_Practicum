@@ -1,6 +1,6 @@
 # A101 Test Automation
 
-This is a Selenium project used cucumber framework with gherkin language.
+Bu proje Java dilinde Selenium otomasyon aracı ile cucumber framework kullanılar oluşturuldu. 
 
 ## Test Scenario;
 
