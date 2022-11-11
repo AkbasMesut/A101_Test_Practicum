@@ -2,14 +2,12 @@ package com.A101.step_definitions;
 
 import com.A101.utilities.BrowserUtils;
 import com.A101.utilities.Driver;
-import com.A101.utilities.BrowserUtils;
-import com.A101.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-public class hooks {
+public class Hooks {
 
     @After
     public void teardownScenario(Scenario scenario) {
@@ -22,7 +20,7 @@ public class hooks {
         }
 
           BrowserUtils.sleep(3);
-          Driver.closeDriver();
+        //  Driver.closeDriver();
 
      }
 

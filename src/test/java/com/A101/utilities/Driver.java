@@ -3,6 +3,7 @@ package com.A101.utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -28,8 +29,14 @@ public class Driver {
             switch (browserType) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    driver.manage().window().maximize();
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--start-maximized");
+                    options.addArguments("--ignore-certificate-errors");
+                    options.addArguments("--allow-insecure-localhost");
+                    options.addArguments("--acceptInsecureCerts");
+                    options.addArguments("--disable-blink-features=AutomationControlled");
+                    options.addArguments("--disable-extensions");
+                    driver = new ChromeDriver(options);
                     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                     break;
                 case "edge":
