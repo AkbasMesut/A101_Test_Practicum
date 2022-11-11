@@ -1,8 +1,11 @@
 # A101 Test Automation
 
-This is a Selenium project used cucumber framework with gherkin language.
+Bu proje Java dilinde Selenium otomasyon aracı ile cucumber framework kullanılar oluşturuldu. 
 
-## Test Steps
-- go to www.a101.com.tr
-- click clothes and accessories
-- click women clothes
+## Test Scenario;
+
+   Kullanıcı A101 sayfasında üye olmadan dizaltı siyah corap siparisi verir 
+
+## Main structure and Test Steps.
+![image](a101.jpg) 
+
