@@ -1,10 +1,10 @@
 # A101 Test Automation
 
-Bu proje Java dilinde Selenium otomasyon aracı ile cucumber framework kullanılar oluşturuldu. 
+Selenium project with cucumber framework and cucumber report
 
 ## Test Scenario;
 
-   Kullanıcı A101 sayfasında üye olmadan dizaltı siyah corap siparisi verir 
+   User order a product without sign in 
 
 ## Main structure and Test Steps.
 ![image](a101.jpg) 
