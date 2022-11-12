@@ -1,6 +1,6 @@
 # A101 Test Automation
 
-Selenium project with cucumber framework and cucumber report
+Selenium project with cucumber framework and cucumber report based on Page Object Model (POM) design pattern.
 
 ## Test Scenario;
 
